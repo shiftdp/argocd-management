@@ -13,7 +13,7 @@ spec:
     path: tools/crossplane-config
   destination:
     server: https://kubernetes.default.svc
-    namespace: development
+    namespace: crossplane-system
   syncPolicy:
     automated:
       selfHeal: true

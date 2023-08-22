@@ -39,7 +39,7 @@ spec:
     path: management
   destination:
     server: https://kubernetes.default.svc
-    namespace: production
+    namespace: argocd
   syncPolicy:
     automated:
       selfHeal: true
