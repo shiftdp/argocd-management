@@ -14,8 +14,8 @@ spec:
     repoURL: https://charts.crossplane.io/stable
     targetRevision: 1.13.2
     helm:
-      values:
-      - installCDRs=true
+      values: |
+        installCDRs: true
   destination:
     server: https://kubernetes.default.svc
     namespace: crossplane-system
